@@ -22,7 +22,7 @@ int main() {
     std::cout << *std::min_element(l.begin(), l.end())<< std::endl;
 
     std::cout << "First element that is divisible by 5:" << std::endl;
-    std::list<int>::const_iterator result = std::find_if(l.begin(), l.end(), divisible_by_5);
+    auto result = std::find_if(l.begin(), l.end(), divisible_by_5);
     if (result == l.end())
         std::cout << "Not found" << std::endl;
     else
