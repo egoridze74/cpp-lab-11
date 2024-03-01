@@ -49,14 +49,8 @@ cmake_ninja_workdir = C$:/Users/Egor/Desktop/Ó÷¸áà/ßÏû/cpp-lab-11/cmake-build-de
 
 build cmake_object_order_depends_target_cpp_lab_11: phony || CMakeFiles/cpp_lab_11.dir
 
-build CMakeFiles/cpp_lab_11.dir/task-1.cpp.obj: CXX_COMPILER__cpp_lab_11_unscanned_Debug C$:/Users/Egor/Desktop/Ó÷¸áà/ßÏû/cpp-lab-11/task-1.cpp || cmake_object_order_depends_target_cpp_lab_11
-  DEP_FILE = CMakeFiles\cpp_lab_11.dir\task-1.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp_lab_11.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp_lab_11.dir
-
-build CMakeFiles/cpp_lab_11.dir/task-2.cpp.obj: CXX_COMPILER__cpp_lab_11_unscanned_Debug C$:/Users/Egor/Desktop/Ó÷¸áà/ßÏû/cpp-lab-11/task-2.cpp || cmake_object_order_depends_target_cpp_lab_11
-  DEP_FILE = CMakeFiles\cpp_lab_11.dir\task-2.cpp.obj.d
+build CMakeFiles/cpp_lab_11.dir/main.cpp.obj: CXX_COMPILER__cpp_lab_11_unscanned_Debug C$:/Users/Egor/Desktop/Ó÷¸áà/ßÏû/cpp-lab-11/main.cpp || cmake_object_order_depends_target_cpp_lab_11
+  DEP_FILE = CMakeFiles\cpp_lab_11.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\cpp_lab_11.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_lab_11.dir
@@ -69,7 +63,7 @@ build CMakeFiles/cpp_lab_11.dir/task-2.cpp.obj: CXX_COMPILER__cpp_lab_11_unscann
 #############################################
 # Link the executable cpp_lab_11.exe
 
-build cpp_lab_11.exe: CXX_EXECUTABLE_LINKER__cpp_lab_11_Debug CMakeFiles/cpp_lab_11.dir/task-1.cpp.obj CMakeFiles/cpp_lab_11.dir/task-2.cpp.obj
+build cpp_lab_11.exe: CXX_EXECUTABLE_LINKER__cpp_lab_11_Debug CMakeFiles/cpp_lab_11.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_lab_11.dir
